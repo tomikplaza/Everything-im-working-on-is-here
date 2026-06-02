@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tomas\Desktop\Practice-Projects\C++\Practice\main\SLAM\Percent_To_Voltage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tomas\Desktop\Practice-Projects\C++\Practice\main\SLAM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83CC8D3E-DCE7-3540-A7E0-2675EA0B5A00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

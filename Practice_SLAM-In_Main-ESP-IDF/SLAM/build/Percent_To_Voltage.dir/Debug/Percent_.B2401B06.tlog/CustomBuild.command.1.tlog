@@ -1,0 +1,10 @@
+^C:\USERS\TOMAS\DESKTOP\PRACTICE-PROJECTS\C++\PRACTICE\MAIN\SLAM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM -BC:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM/build --check-stamp-file C:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

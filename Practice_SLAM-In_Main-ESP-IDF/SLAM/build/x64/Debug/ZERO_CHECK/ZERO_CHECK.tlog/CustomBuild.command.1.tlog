@@ -1,0 +1,10 @@
+^C:\USERS\TOMAS\DESKTOP\PRACTICE-PROJECTS\C++\PRACTICE\MAIN\SLAM\BUILD\CMAKEFILES\A8C37B745275B5ADD5A00195BD77C608\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM -BC:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tomas/Desktop/Practice-Projects/C++/Practice/main/SLAM/build/Percent_To_Voltage.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
